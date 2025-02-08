@@ -1,0 +1,9 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"item_store"},
+{"type":"table","name":"items","database":"item_store","data":
+[
+{"id":"1","name":"LOL","date_bought":"2025-02-14","check_date":"2025-02-07","warranty_years":"2","expiry_date":"2025-02-28"}
+]
+}
+]
