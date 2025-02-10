@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "12345678";
 $dbname = "item_store";
 
 // Create connection
@@ -72,7 +72,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </div>
             <div class="form-group">
                 <label for="expiry_date">Expiry Date:</label>
-                <input type="date" id="expiry_date" name="expiry_date" >
+                <input type="date" id="expiry_date" name="expiry_date">
             </div>
             <button type="submit">Add Item</button>
         </form>

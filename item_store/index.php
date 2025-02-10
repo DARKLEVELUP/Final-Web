@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root"; // Change according to your settings
-$password = "";
+$password = "12345678";
 $dbname = "item_store";
 
 // Connect to the database

@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "12345678";
 $dbname = "item_store";
 
 // Create connection
@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Update the item in the database
     $sql = "UPDATE items 
             SET name='$name', date_bought='$date_bought', check_date='$check_date', 
-                warranty_years=$warranty_years, expiry_date='$expiry_date' 
+                warranty_years=$warranty_years, expiry_date='$expiry_date'
             WHERE id=$id";
 
     if ($conn->query($sql) === TRUE) {
@@ -77,7 +77,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </div>
             <div class="form-group">
                 <label for="expiry_date">Expiry Date:</label>
-                <input type="date" id="expiry_date" name="expiry_date" >
+                <input type="date" id="expiry_date" name="expiry_date">
             </div>
             <button type="submit">Update Item</button>
         </form>
